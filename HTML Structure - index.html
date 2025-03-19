@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Agent</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to XYZ Real Estate</h1>
+        <p>Your dream home is just a click away.</p>
+    </header>
+
+    <!-- Property Search Section -->
+    <section id="property-search">
+        <h2>Search Properties</h2>
+        <form id="search-form">
+            <input type="text" id="location" placeholder="Location">
+            <input type="number" id="min-price" placeholder="Min Price">
+            <input type="number" id="max-price" placeholder="Max Price">
+            <button type="submit">Search</button>
+        </form>
+        <div id="property-results"></div>
+    </section>
+
+    <!-- Chatbot Widget -->
+    <div id="chatbot">
+        <div id="chatbox">
+            <div id="messages"></div>
+            <input type="text" id="userInput" placeholder="Ask me anything...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
