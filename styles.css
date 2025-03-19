@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #2b3d44;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#property-search {
+    padding: 30px;
+    text-align: center;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#chatbot {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#chatbox {
+    padding: 10px;
+    border-top: 2px solid #ccc;
+}
+
+#messages {
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+#userInput {
+    width: 80%;
+    padding: 10px;
+}
+
+button {
+    width: 15%;
+    padding: 10px;
+}
